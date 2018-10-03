@@ -1,0 +1,10 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Description>Fable bindings for ASP.NET Core SignalR</Description>
+    <PackageProjectUrl>https://github.com/rfrerebe/Fable.Import.SignalRCore</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/rfrerebe/Fable.Import.SignalRCore/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/rfrerebe/Fable.Import.SignalRCore.git</RepositoryUrl>
+    <PackageTags>SignalR core;fsharp;fable</PackageTags>
+    <Authors>Rémy Frèrebeau</Authors>
+  </PropertyGroup>
+</Project>
