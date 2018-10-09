@@ -2,12 +2,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="Meta.props" />
   <PropertyGroup>
-    <Version>0.1.0</Version>
-    <PackageVersion>0.1.0</PackageVersion>
+    <Version>1.0.0</Version>
+    <PackageVersion>0.2.0</PackageVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Fable.Import.SignalRCore.fs" />
+    <Compile Include="ILogger.fs" />
+    <Compile Include="ITransport.fs" />
+    <Compile Include="IHubProtocol.fs" />
+    <Compile Include="IConnection.fs" />
+    <Compile Include="AbortController.fs" />
+    <Compile Include="Errors.fs" />
+    <Compile Include="Stream.fs" />
+    <Compile Include="TextMessageFormat.fs" />
+    <Compile Include="HandshakeProtocol.fs" />
+    <Compile Include="HttpClient.fs" />
+    <Compile Include="IHttpConnectionOptions.fs" />
+    <Compile Include="HttpConnection.fs" />
+    <Compile Include="HubConnection.fs" />
+    <Compile Include="HubConnectionBuilder.fs" />
   </ItemGroup>
   <Import Project=".paket\Paket.Restore.targets" />
 </Project>
